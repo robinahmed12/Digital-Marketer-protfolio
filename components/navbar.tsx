@@ -37,16 +37,16 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Brand Logo */}
-          <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#6d0808] to-[#2d0000] border border-[#757d6f]/40 flex items-center justify-center text-[#eeead7] font-bold text-lg shadow-md group-hover:scale-105 transition-transform">
+          {/* Typographic Text Logo */}
+          <a href="#" className="flex items-center gap-2.5 group">
+            <span className="w-9 h-9 rounded-xl bg-gradient-to-br from-[#6d0808] to-[#2d0000] border border-[#757d6f]/30 flex items-center justify-center text-[#eeead7] font-black text-sm tracking-tighter shadow-md group-hover:scale-105 transition-transform shrink-0">
               FB
-            </div>
-            <div>
-              <span className="block font-bold text-lg tracking-tight text-[var(--text-page)] group-hover:text-[#6d0808] transition-colors">
-                {db.profile.name}
+            </span>
+            <div className="flex flex-col">
+              <span className="font-black text-lg tracking-tight text-[var(--text-page)] group-hover:text-[#6d0808] transition-colors leading-tight">
+                FARIA <span className="text-[#6d0808] dark:text-[#f0a8a8]">BRISTI</span>
               </span>
-              <span className="block text-xs uppercase tracking-wider text-[var(--text-muted)] font-medium">
+              <span className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)] -mt-0.5">
                 Digital Marketer
               </span>
             </div>

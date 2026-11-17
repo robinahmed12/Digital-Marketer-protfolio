@@ -1,0 +1,55 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="logoBg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4A0505" />
+      <stop offset="50%" stop-color="#2D0000" />
+      <stop offset="100%" stop-color="#180000" />
+    </linearGradient>
+
+    <!-- Crimson Metallic Gradient -->
+    <linearGradient id="crimsonGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A81B1B" />
+      <stop offset="50%" stop-color="#6D0808" />
+      <stop offset="100%" stop-color="#4A0505" />
+    </linearGradient>
+
+    <!-- Warm Cream / Gold Gradient -->
+    <linearGradient id="creamGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#EEEAD7" />
+      <stop offset="100%" stop-color="#D6CEB5" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#6D0808" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Squircle Base -->
+  <rect x="4" y="4" width="112" height="112" rx="28" fill="url(#logoBg)" stroke="#757D6F" stroke-opacity="0.35" stroke-width="2" />
+  
+  <!-- Inner Crimson Glow Ring -->
+  <rect x="8" y="8" width="104" height="104" rx="24" stroke="url(#crimsonGrad)" stroke-width="2.5" opacity="0.85" />
+
+  <!-- Background Growth Chart Bars (Digital Marketing Motifs) -->
+  <rect x="24" y="74" width="6" height="16" rx="3" fill="#757D6F" opacity="0.4" />
+  <rect x="34" y="64" width="6" height="26" rx="3" fill="#757D6F" opacity="0.55" />
+  <rect x="44" y="52" width="6" height="38" rx="3" fill="#6D0808" opacity="0.75" />
+
+  <!-- Central "FB" Monogram & Upward Growth Arrow -->
+  <g filter="url(#glow)">
+    <!-- Letter F -->
+    <path d="M42 34 H72 C74.2 34 76 35.8 76 38 C76 40.2 74.2 42 72 42 H50 V50 H68 C70.2 50 72 51.8 72 54 C72 56.2 70.2 58 68 58 H50 V86 C50 88.2 48.2 90 46 90 C43.8 90 42 88.2 42 86 V34 Z" fill="url(#creamGrad)" />
+
+    <!-- Letter B (Intersecting/Integrated Modern Loop) -->
+    <path d="M58 50 H74 C79.5 50 84 54.5 84 60 C84 64 81.5 67.5 78 69 C82.5 70.5 86 74.8 86 80 C86 85.5 81.5 90 75 90 H54 C51.8 90 50 88.2 50 86 V78 H74 C76.2 78 78 76.2 78 74 C78 71.8 76.2 70 74 70 H62 C59.8 70 58 68.2 58 66 V50 Z M72 62 C74.2 62 76 60.2 76 58 C76 55.8 74.2 54 72 54 H58 V62 H72 Z" fill="url(#crimsonGrad)" opacity="0.95" />
+
+    <!-- Scaling Growth Arrow (Top Right) -->
+    <path d="M80 26 H94 V40 M94 26 L76 44" stroke="url(#creamGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Sparkle Accent -->
+  <circle cx="94" cy="26" r="3.5" fill="#FFFFFF" />
+</svg>

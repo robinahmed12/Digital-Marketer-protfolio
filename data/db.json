@@ -2,6 +2,8 @@
   "profile": {
     "name": "Faria Bristi",
     "title": "Digital Marketer & Growth Strategist",
+    "logo": "/logo.svg",
+    "avatar": "/faria-image.jpg",
     "badge": "Available for High-Impact Projects",
     "tagline": "Scaling Brands With Data-Driven Ads & High-Converting Content Strategy",
     "bio": "I am Faria Bristi, a passionate Digital Marketer specialized in driving profitable growth for brands. With expertise across Meta Ads, Facebook Page Optimization, Google Ads, SEO, and Canva Visual Design, I build end-to-end customer acquisition funnels that transform budget into predictable revenue.",
@@ -33,8 +35,9 @@
       }
     ],
     "contact": {
-      "whatsapp": "+8801700000000",
-      "whatsappLink": "https://wa.me/8801700000000?text=Hi%20Faria%20Bristi!%20I%20am%20interested%20in%20scaling%20my%20business%20with%20your%20digital%20marketing%20services.",
+      "whatsapp": "+880 1872-022230",
+      "whatsappNumber": "8801872022230",
+      "whatsappLink": "https://wa.me/8801872022230?text=Hi%20Faria%20Bristi!%20I%20am%20interested%20in%20scaling%20my%20business%20with%20your%20digital%20marketing%20services.",
       "email": "faria.bristi.marketing@gmail.com",
       "facebook": "https://facebook.com/faria.bristi",
       "linkedin": "https://linkedin.com/in/faria-bristi",

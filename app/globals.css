@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer base {
   :root {
     --brand-deep: #2d0000;
@@ -19,9 +21,21 @@
     --btn-primary-bg: #6d0808;
     --btn-primary-text: #eeead7;
     --header-bg: rgba(238, 234, 215, 0.85);
+
+    /* Hero Section Tokens (Light) */
+    --hero-bg-from: #FFFDF8;
+    --hero-bg-via: #F8F5EC;
+    --hero-bg-to: #EEEAD7;
+    --hero-text: #2D0000;
+    --hero-text-muted: #5e6659;
+    --hero-card-bg: rgba(255, 255, 255, 0.85);
+    --hero-border: rgba(117, 125, 111, 0.3);
+    --hero-heading-from: #6d0808;
+    --hero-heading-via: #a81b1b;
+    --hero-heading-to: #2d0000;
   }
 
-  .dark {
+  .dark, [data-theme="dark"], html.dark {
     /* Dark Theme (Default) */
     --bg-page: #170000;
     --text-page: #eeead7;
@@ -33,6 +47,18 @@
     --btn-primary-bg: #6d0808;
     --btn-primary-text: #eeead7;
     --header-bg: rgba(23, 0, 0, 0.85);
+
+    /* Hero Section Tokens (Dark) */
+    --hero-bg-from: #200000;
+    --hero-bg-via: #2D0000;
+    --hero-bg-to: #140000;
+    --hero-text: #EEEAD7;
+    --hero-text-muted: #c7c2b2;
+    --hero-card-bg: rgba(45, 0, 0, 0.85);
+    --hero-border: rgba(117, 125, 111, 0.35);
+    --hero-heading-from: #f0a8a8;
+    --hero-heading-via: #e23838;
+    --hero-heading-to: #eeead7;
   }
 
   * {

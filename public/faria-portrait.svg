@@ -1,0 +1,113 @@
+<svg width="600" height="700" viewBox="0 0 600 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="600" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2D0000" />
+      <stop offset="60%" stop-color="#4A0505" />
+      <stop offset="100%" stop-color="#1A0000" />
+    </linearGradient>
+    <linearGradient id="crimsonAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8F0E0E" />
+      <stop offset="100%" stop-color="#6D0808" />
+    </linearGradient>
+    <linearGradient id="goldCream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EEEAD7" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background Base with subtle border -->
+  <rect width="600" height="700" rx="36" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="596" height="696" rx="34" stroke="#757D6F" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="480" cy="180" r="160" fill="#6D0808" fill-opacity="0.35" filter="url(#shadow)" />
+  <circle cx="120" cy="520" r="140" fill="#757D6F" fill-opacity="0.2" />
+
+  <!-- Geometric Grid Pattern Accent -->
+  <g opacity="0.12" stroke="#EEEAD7" stroke-width="1.5">
+    <path d="M50 100 H550 M50 200 H550 M50 300 H550 M50 400 H550 M50 500 H550 M50 600 H550" />
+    <path d="M100 50 V650 M200 50 V650 M300 50 V650 M400 50 V650 M500 50 V650" />
+  </g>
+
+  <!-- Stylized Digital Marketer Portrait / Silhouette Frame -->
+  <g filter="url(#shadow)">
+    <!-- Aura Glow behind character -->
+    <ellipse cx="300" cy="360" rx="190" ry="210" fill="#6D0808" fill-opacity="0.25" />
+    
+    <!-- Outer Arch Frame -->
+    <path d="M150 580 C150 260 450 260 450 580 Z" fill="#250101" stroke="#6D0808" stroke-width="4" stroke-opacity="0.6" />
+
+    <!-- Stylized Portrait Silhouette -->
+    <!-- Torso / Blazer -->
+    <path d="M165 580 C175 480 230 430 300 430 C370 430 425 480 435 580 Z" fill="#3D0303" />
+    <!-- Lapels -->
+    <path d="M250 430 L300 540 L260 580 Z" fill="#6D0808" />
+    <path d="M350 430 L300 540 L340 580 Z" fill="#6D0808" />
+    <!-- Blouse -->
+    <path d="M280 430 L300 510 L320 430 Z" fill="url(#goldCream)" />
+
+    <!-- Neck -->
+    <rect x="282" y="360" width="36" height="75" rx="10" fill="#E8C3AC" />
+
+    <!-- Head / Face -->
+    <ellipse cx="300" cy="330" rx="65" ry="75" fill="#F4D3C2" />
+
+    <!-- Hair Silhouette (Elegant Wavy Hair) -->
+    <path d="M230 330 C220 220 380 220 370 330 C380 410 375 480 365 510 C350 480 355 350 345 320 C340 270 260 270 255 320 C245 350 250 480 235 510 C225 480 220 410 230 330 Z" fill="#1A0808" />
+
+    <!-- Minimal Facial Features -->
+    <path d="M275 325 Q285 320 295 325" stroke="#7A4B3A" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <path d="M305 325 Q315 320 325 325" stroke="#7A4B3A" stroke-width="2.5" stroke-linecap="round" fill="none" />
+    <circle cx="285" cy="335" r="4" fill="#3B2016" />
+    <circle cx="315" cy="335" r="4" fill="#3B2016" />
+    <!-- Glasses (Smart Marketer Look) -->
+    <rect x="270" y="322" width="28" height="22" rx="6" stroke="#6D0808" stroke-width="2.5" fill="none" />
+    <rect x="302" y="322" width="28" height="22" rx="6" stroke="#6D0808" stroke-width="2.5" fill="none" />
+    <line x1="298" y1="332" x2="302" y2="332" stroke="#6D0808" stroke-width="2" />
+    <!-- Smile -->
+    <path d="M290 365 Q300 375 310 365" stroke="#9E2A2B" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+
+  <!-- Interactive Floating UI Badges -->
+  <!-- Badge 1: Meta Ads Top ROAS -->
+  <g filter="url(#shadow)" transform="translate(40, 220)">
+    <rect width="180" height="64" rx="18" fill="#1C0101" stroke="#6D0808" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="16" fill="#6D0808" />
+    <!-- Megaphone icon -->
+    <path d="M26 36 V28 L34 25 V39 Z M34 30 L40 27 V37 L34 34" stroke="#EEEAD7" stroke-width="2" stroke-linejoin="round" fill="none" />
+    <text x="58" y="27" fill="#EEEAD7" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Meta Ads Expert</text>
+    <text x="58" y="44" fill="#E23838" font-family="system-ui, sans-serif" font-size="14" font-weight="900">4.8x+ ROAS</text>
+  </g>
+
+  <!-- Badge 2: Google Ads & SEO -->
+  <g filter="url(#shadow)" transform="translate(380, 420)">
+    <rect width="180" height="64" rx="18" fill="#1C0101" stroke="#757D6F" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="16" fill="#757D6F" fill-opacity="0.3" />
+    <!-- Target / Search icon -->
+    <circle cx="32" cy="32" r="8" stroke="#EEEAD7" stroke-width="2" fill="none" />
+    <path d="M38 38 L43 43" stroke="#EEEAD7" stroke-width="2.5" stroke-linecap="round" />
+    <text x="58" y="27" fill="#EEEAD7" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Google Ads & SEO</text>
+    <text x="58" y="44" fill="#757D6F" font-family="system-ui, sans-serif" font-size="13" font-weight="800">#1 Rank Strategy</text>
+  </g>
+
+  <!-- Badge 3: Canva Design Pro -->
+  <g filter="url(#shadow)" transform="translate(60, 470)">
+    <rect width="170" height="56" rx="16" fill="#250101" stroke="#6D0808" stroke-width="1.5" />
+    <circle cx="28" cy="28" r="14" fill="url(#crimsonAccent)" />
+    <!-- Sparkles -->
+    <path d="M28 20 L29.5 25.5 L35 27 L29.5 28.5 L28 34 L26.5 28.5 L21 27 L26.5 25.5 Z" fill="#EEEAD7" />
+    <text x="50" y="24" fill="#EEEAD7" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Canva Pro Creatives</text>
+    <text x="50" y="41" fill="#EEEAD7" opacity="0.8" font-family="system-ui, sans-serif" font-size="10">High-CTR Visuals</text>
+  </g>
+
+  <!-- Verified Marketer Ribbon at Bottom -->
+  <g filter="url(#shadow)" transform="translate(180, 600)">
+    <rect width="240" height="48" rx="24" fill="url(#crimsonAccent)" />
+    <text x="120" y="29" fill="#EEEAD7" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="0.5">
+      Faria Bristi • Digital Marketer
+    </text>
+  </g>
+</svg>

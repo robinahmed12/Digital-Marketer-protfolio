@@ -12,16 +12,16 @@ export function Footer() {
     <footer className="py-12 border-t border-[var(--card-border)] bg-[var(--bg-page)] text-[var(--text-muted)] text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Brand info */}
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-[#6d0808] flex items-center justify-center text-[#eeead7] font-bold text-sm shadow-md">
+          {/* Brand info with Text Logo */}
+          <div className="flex items-center gap-2.5">
+            <span className="w-8 h-8 rounded-xl bg-gradient-to-br from-[#6d0808] to-[#2d0000] border border-[#757d6f]/30 flex items-center justify-center text-[#eeead7] font-black text-xs tracking-tighter shadow-md shrink-0">
               FB
-            </div>
-            <div>
-              <div className="font-bold text-sm text-[var(--text-page)]">
-                {db.profile.name}
+            </span>
+            <div className="flex flex-col">
+              <div className="font-black text-base tracking-tight text-[var(--text-page)] leading-tight">
+                FARIA <span className="text-[#6d0808] dark:text-[#f0a8a8]">BRISTI</span>
               </div>
-              <div className="text-[11px] text-[var(--text-muted)]">
+              <div className="text-[10px] uppercase tracking-widest font-bold text-[var(--text-muted)]">
                 {db.profile.title}
               </div>
             </div>
@@ -50,15 +50,9 @@ export function Footer() {
 
         <div className="pt-6 border-t border-[var(--card-border)] flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
           <div>
-            © 2026 {db.profile.name}. All rights reserved. Powered by Next.js & Tailwind CSS.
+            © 2026 {db.profile.name}. All rights reserved.
           </div>
-          <div className="flex items-center gap-2">
-            <span>Color Palette:</span>
-            <span className="font-mono text-[#6d0808] font-bold">#6D0808</span>
-            <span className="font-mono text-[#2D0000] font-bold">#2D0000</span>
-            <span className="font-mono text-[#757D6F] font-bold">#757D6F</span>
-            <span className="font-mono text-[var(--text-page)] font-bold">#EEEAD7</span>
-          </div>
+    
         </div>
       </div>
     </footer>

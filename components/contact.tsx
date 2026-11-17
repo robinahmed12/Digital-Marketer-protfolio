@@ -37,7 +37,7 @@ export function Contact() {
       `Estimated Budget: ${formData.budget}\n` +
       `Message: ${formData.message || "I'd like to discuss scaling our marketing."}`
     );
-    window.open(`https://wa.me/8801700000000?text=${text}`, "_blank");
+    window.open(`https://wa.me/${profile.contact.whatsappNumber}?text=${text}`, "_blank");
   };
 
   const handleEmailSend = () => {
