@@ -1,0 +1,336 @@
+{
+  "profile": {
+    "name": "Faria Bristi",
+    "title": "Digital Marketer & Growth Strategist",
+    "badge": "Available for High-Impact Projects",
+    "tagline": "Scaling Brands With Data-Driven Ads & High-Converting Content Strategy",
+    "bio": "I am Faria Bristi, a passionate Digital Marketer specialized in driving profitable growth for brands. With expertise across Meta Ads, Facebook Page Optimization, Google Ads, SEO, and Canva Visual Design, I build end-to-end customer acquisition funnels that transform budget into predictable revenue.",
+    "location": "Dhaka, Bangladesh — Serving Worldwide Clients",
+    "stats": [
+      {
+        "id": "stat-roas",
+        "value": "4.8x+",
+        "label": "Average ROAS",
+        "sub": "Across Meta & Google campaigns"
+      },
+      {
+        "id": "stat-spend",
+        "value": "$85K+",
+        "label": "Ad Spend Managed",
+        "sub": "Optimized with 0% wasted budget"
+      },
+      {
+        "id": "stat-growth",
+        "value": "350%+",
+        "label": "Organic Reach Boost",
+        "sub": "Through page & content optimization"
+      },
+      {
+        "id": "stat-campaigns",
+        "value": "60+",
+        "label": "Campaigns Launched",
+        "sub": "E-commerce & lead gen brands"
+      }
+    ],
+    "contact": {
+      "whatsapp": "+8801700000000",
+      "whatsappLink": "https://wa.me/8801700000000?text=Hi%20Faria%20Bristi!%20I%20am%20interested%20in%20scaling%20my%20business%20with%20your%20digital%20marketing%20services.",
+      "email": "faria.bristi.marketing@gmail.com",
+      "facebook": "https://facebook.com/faria.bristi",
+      "linkedin": "https://linkedin.com/in/faria-bristi",
+      "instagram": "https://instagram.com/faria.bristi.marketing"
+    }
+  },
+  "services": [
+    {
+      "id": "meta-ads",
+      "title": "Meta Ads (Facebook & Instagram)",
+      "badge": "Highest ROAS",
+      "icon": "Megaphone",
+      "shortDesc": "Targeted paid advertising campaigns engineered to turn cold audiences into recurring high-ticket customers.",
+      "deliverables": [
+        "Advanced custom & lookalike audience segmentation",
+        "Meta Pixel, Conversions API (CAPI) & event tracking",
+        "Creative A/B split testing (hooks, copies & CTAs)",
+        "Dynamic catalog sales & abandoned cart retargeting",
+        "Weekly ROAS optimization & transparent reporting"
+      ]
+    },
+    {
+      "id": "facebook-optimization",
+      "title": "Facebook Page Optimization",
+      "badge": "Organic Growth",
+      "icon": "Share2",
+      "shortDesc": "Transform your Facebook page into an authoritative, high-converting digital storefront that beats the algorithm.",
+      "deliverables": [
+        "Comprehensive page health audit & competitor benchmarking",
+        "SEO-optimized bio, category keywords & custom action button",
+        "Branded high-resolution cover & profile visual kit",
+        "Automated instant Messenger FAQ & lead capture flow",
+        "Algorithm-aligned posting rhythm for 3x organic reach"
+      ]
+    },
+    {
+      "id": "google-ads",
+      "title": "Google Ads & PPC Marketing",
+      "badge": "High-Intent Traffic",
+      "icon": "Target",
+      "shortDesc": "Capture prospective buyers at the exact moment they search for your products and services with Google Ads.",
+      "deliverables": [
+        "High-intent commercial & transactional keyword research",
+        "Search, Display & Performance Max (PMax) setups",
+        "Negative keyword lists to eliminate wasted budget",
+        "Google Tag Manager & precision conversion tracking",
+        "Landing page recommendations for higher Quality Scores"
+      ]
+    },
+    {
+      "id": "seo",
+      "title": "Search Engine Optimization (SEO)",
+      "badge": "Long-Term Value",
+      "icon": "Search",
+      "shortDesc": "Rank on Google's page 1, drive organic buyer traffic, and build compound authority without paying per click.",
+      "deliverables": [
+        "Comprehensive On-Page SEO & content gap analysis",
+        "Title tags, meta descriptions & header tags optimization",
+        "Google Search Console & GA4 configuration",
+        "Keyword difficulty research & search intent mapping",
+        "Technical SEO checks (indexing, speed & mobile crawl)"
+      ]
+    },
+    {
+      "id": "social-management",
+      "title": "Social Media Management",
+      "badge": "Full-Service",
+      "icon": "TrendingUp",
+      "shortDesc": "End-to-end brand management across Facebook & Instagram with engaging content, active community building & growth.",
+      "deliverables": [
+        "30-day visual content calendar & strategy blueprint",
+        "Daily scheduled posting & active audience interaction",
+        "Curated hashtag sets & trending audio integration",
+        "Community engagement, DM & comment moderation",
+        "Monthly performance analytics & strategy review"
+      ]
+    },
+    {
+      "id": "canva-design",
+      "title": "Canva Visual Design & Creatives",
+      "badge": "Scroll-Stopping",
+      "icon": "Palette",
+      "shortDesc": "Eye-catching social media posts, multi-slide carousels, and high-CTR ad banners crafted in Canva Pro.",
+      "deliverables": [
+        "High-CTR Facebook & Instagram ad creative sets",
+        "Educational multi-slide carousel designs",
+        "Promotional sale banners, story ads & reel covers",
+        "Cohesive brand color palettes, fonts & layout kits",
+        "Editable Canva templates for your internal team"
+      ]
+    },
+    {
+      "id": "content-creation",
+      "title": "Content Strategy & Copywriting",
+      "badge": "Conversion Focused",
+      "icon": "FileText",
+      "shortDesc": "Persuasive copywriting and content architecture that hook attention, educate your prospects, and drive sales.",
+      "deliverables": [
+        "Direct-response ad copy built on consumer psychology",
+        "Viral hook formulas for reels, shorts & carousel covers",
+        "Value-driven educational captions that build trust",
+        "Objection-killing testimonial & case study posts",
+        "Compelling Call-to-Action (CTA) frameworks"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "cs-ecommerce-fashion",
+      "title": "E-Commerce Fashion Brand Scale",
+      "client": "Aura Wear Boutique",
+      "category": "Meta Ads",
+      "highlight": "5.4x ROAS",
+      "summary": "Scaled a direct-to-consumer fashion label from breakeven to 5.4x return on ad spend within 60 days.",
+      "metrics": [
+        { "label": "ROAS Achieved", "value": "5.4x" },
+        { "label": "Revenue Generated", "value": "$42,800" },
+        { "label": "Cost Per Purchase", "value": "-38%" },
+        { "label": "CTR", "value": "3.4%" }
+      ],
+      "challenge": "The client was burning ad budget on broad targeting with generic image creatives, yielding less than 1.4x ROAS and high customer acquisition cost.",
+      "strategy": "Restructured the entire Meta Ads funnel into TOFU (Top of Funnel - Interest & Lookalikes), MOFU (Engagement retargeting), and BOFU (Cart Abandoners with dynamic catalog ads & scarcity offers). Designed new high-contrast Canva creatives.",
+      "results": "Achieved $42,800 in tracked sales with an average 5.4x ROAS, cutting the client's cost-per-purchase by 38%."
+    },
+    {
+      "id": "cs-dental-leadgen",
+      "title": "Healthcare Clinic Lead Gen",
+      "client": "Apex Dental & Wellness",
+      "category": "Google Ads",
+      "highlight": "45% Lower CPL",
+      "summary": "Generated 240+ qualified patient inquiries via high-intent Google Search campaigns while slashing acquisition costs.",
+      "metrics": [
+        { "label": "Cost Per Lead", "value": "$13.80" },
+        { "label": "New Inquiries", "value": "240+" },
+        { "label": "Conversion Rate", "value": "9.4%" },
+        { "label": "Ad Waste Cut", "value": "-52%" }
+      ],
+      "challenge": "Client was bidding on broad, unqualified keywords ('dental care', 'teeth info') which drained their budget without yielding actual booking appointments.",
+      "strategy": "Audited search query reports, deployed 120+ negative keywords, and rebuilt tightly themed ad groups targeting commercial intent queries ('dental implants near me', 'emergency dentist booking').",
+      "results": "Delivered 240+ verified appointment requests in 90 days, reducing Cost Per Lead from $25.20 down to $13.80."
+    },
+    {
+      "id": "cs-page-revamp",
+      "title": "Facebook Page & Community Overhaul",
+      "client": "Zenith Living Lifestyle",
+      "category": "Social Media",
+      "highlight": "+380% Organic Reach",
+      "summary": "Revitalized a dormant brand page into an active community with consistent viral engagement and follower growth.",
+      "metrics": [
+        { "label": "Organic Reach", "value": "+380%" },
+        { "label": "Post Engagement", "value": "4.2x" },
+        { "label": "Followers Gained", "value": "+14,200" },
+        { "label": "Inbound Inquiries", "value": "85/mo" }
+      ],
+      "challenge": "The brand page had 5,000 inactive followers with near-zero organic reach (less than 20 likes per post) and no clear visual identity.",
+      "strategy": "Redesigned page visuals, optimized the bio for discovery SEO, introduced interactive carousel posts, and implemented an algorithm-favored reel and polling schedule.",
+      "results": "Organic reach surged 380% in 45 days, gaining over 14,200 organic followers and generating steady organic direct messages for their products."
+    },
+    {
+      "id": "cs-canva-creative-revamp",
+      "title": "Ad Creative & Canva Visual Revamp",
+      "client": "Glow Naturals Skincare",
+      "category": "Canva Design",
+      "highlight": "3.2% CTR (was 0.8%)",
+      "summary": "Re-engineered social ad creatives using high-converting Canva templates to cure ad fatigue and 4x the click-through rate.",
+      "metrics": [
+        { "label": "Click-Through Rate", "value": "3.2%" },
+        { "label": "Previous CTR", "value": "0.8%" },
+        { "label": "Add to Cart Rate", "value": "+65%" },
+        { "label": "Creative Lifespan", "value": "3x longer" }
+      ],
+      "challenge": "Client's existing ads looked like stock photography, suffering severe ad fatigue within 4 days of launching.",
+      "strategy": "Designed 12 bespoke Canva ad variants featuring customer UGC frames, clear problem/solution split screens, and bold benefit typography highlighting urgency.",
+      "results": "Click-through rate quadrupled from 0.8% to 3.2%, lowering the CPC and boosting overall add-to-cart conversions by 65%."
+    }
+  ],
+  "creatives": [
+    {
+      "id": "cr-1",
+      "title": "Flash Sale Meta Ad Banner",
+      "category": "Meta Ads Creative",
+      "tag": "E-Commerce",
+      "desc": "Bold contrast, visual hierarchy, and clear promotional urgency tailored for Instagram Feed."
+    },
+    {
+      "id": "cr-2",
+      "title": "5-Slide Educational Carousel",
+      "category": "Canva Design",
+      "tag": "Social Growth",
+      "desc": "Value-packed step-by-step swipeable carousel optimized for bookmarking and shares."
+    },
+    {
+      "id": "cr-3",
+      "title": "Story Ad with Direct Swipe-Up CTA",
+      "category": "Instagram Story",
+      "tag": "Conversion",
+      "desc": "Vertical 9:16 layout designed with clear focal point and compelling tap incentive."
+    },
+    {
+      "id": "cr-4",
+      "title": "Branded Facebook Cover & Bio Kit",
+      "category": "Page Optimization",
+      "tag": "Branding",
+      "desc": "Professional business profile cover highlighting unique selling proposition and booking button."
+    },
+    {
+      "id": "cr-5",
+      "title": "Customer Testimonial Spotlight",
+      "category": "Social Proof",
+      "tag": "Trust Building",
+      "desc": "Authentic review highlight template with 5-star rating badges and client quote formatting."
+    },
+    {
+      "id": "cr-6",
+      "title": "Seasonal Holiday Campaign Set",
+      "category": "Campaign Creatives",
+      "tag": "Seasonal Sale",
+      "desc": "Multi-format campaign creative set across square, portrait, and landscape ratios."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Audit & Discovery",
+      "desc": "We analyze your current ad accounts, Facebook page health, website conversion tracking, and competitor strategies to identify your highest-leverage growth bottlenecks."
+    },
+    {
+      "step": "02",
+      "title": "Custom Strategy & Creative Blueprint",
+      "desc": "I build a bespoke roadmap: audience targeting angles, high-converting Canva ad creatives, persuasive copywriting, and budget distribution."
+    },
+    {
+      "step": "03",
+      "title": "Campaign Launch & Tracking Setup",
+      "desc": "Pixel, CAPI, and conversion events are verified before launch. Campaigns go live with structured A/B testing across audiences and ad creative variations."
+    },
+    {
+      "step": "04",
+      "title": "Optimization, Scaling & Reporting",
+      "desc": "We double down on winning ads, eliminate underperforming segments, scale profitable budgets, and provide transparent weekly metric reports."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t-1",
+      "name": "Sarah Jenkins",
+      "role": "Founder, Aura Wear Boutique",
+      "rating": 5,
+      "text": "Faria completely turned our Facebook ads around. We were struggling to hit 1.5x ROAS and within 60 days she pushed us over 5x! Her Canva creatives and targeting precision are second to none.",
+      "result": "5.4x ROAS Delivered"
+    },
+    {
+      "id": "t-2",
+      "name": "Dr. Marcus Vance",
+      "role": "Clinical Director, Apex Dental Group",
+      "rating": 5,
+      "text": "Working with Faria on our Google Ads was the best marketing decision we made this year. She cut our cost per booking by nearly half and filled our appointment books for 3 months straight.",
+      "result": "45% Reduction in Cost Per Lead"
+    },
+    {
+      "id": "t-3",
+      "name": "Elena Rostova",
+      "role": "Marketing Head, Glow Naturals",
+      "rating": 5,
+      "text": "Faria doesn't just manage ads—she understands psychology and visual aesthetics. The Canva creative kit she produced for us gave our brand the modern, high-end feel we desperately needed.",
+      "result": "Quadrupled Click-Through Rates"
+    }
+  ],
+  "skillsList": [
+    { "name": "Meta Ads Manager", "category": "Paid Advertising" },
+    { "name": "Google Ads & PPC", "category": "Paid Advertising" },
+    { "name": "Facebook Page Optimization", "category": "Social Media" },
+    { "name": "Canva Pro Graphic Design", "category": "Creative Design" },
+    { "name": "Content Creation & Copywriting", "category": "Content" },
+    { "name": "Social Media Management", "category": "Social Media" },
+    { "name": "Search Engine Optimization (SEO)", "category": "Organic Traffic" },
+    { "name": "Meta Pixel & Conversions API", "category": "Technical & Analytics" },
+    { "name": "Google Analytics 4 (GA4)", "category": "Technical & Analytics" },
+    { "name": "A/B Creative Split Testing", "category": "Strategy" }
+  ],
+  "faqs": [
+    {
+      "question": "What ad budget do I need to get started with Meta or Google Ads?",
+      "answer": "For Meta Ads, I generally recommend starting with a testing budget of at least $15–$30/day to collect sufficient conversion data. For Google Ads, budget depends on your industry keyword CPCs, typically starting from $500–$1,000/month."
+    },
+    {
+      "question": "How quickly can I expect to see results?",
+      "answer": "For Facebook Page Optimization and Canva Creatives, improvements in engagement are visible within the first 7–14 days. For paid campaigns (Meta & Google Ads), initial test results appear in week 1, with stabilized, scalable ROAS typically achieved by weeks 3 to 4."
+    },
+    {
+      "question": "Do you design the ad graphics and write the copy as well?",
+      "answer": "Yes! Full-service execution is one of my strongest advantages. I design high-converting Canva ad creatives, craft psychological ad copy, and handle all technical campaign setups."
+    },
+    {
+      "question": "How do we communicate and track campaign progress?",
+      "answer": "We maintain continuous communication via WhatsApp or Email, accompanied by transparent bi-weekly or monthly visual reports covering spend, ROAS, leads, and actionable next steps."
+    }
+  ]
+}

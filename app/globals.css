@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --brand-deep: #2d0000;
+    --brand-crimson: #6d0808;
+    --brand-crimson-hover: #8f0e0e;
+    --brand-sage: #757d6f;
+    --brand-cream: #eeead7;
+
+    /* Light Theme */
+    --bg-page: #eeead7;
+    --text-page: #2d0000;
+    --text-muted: #5e6659;
+    --card-bg: #f9f7ef;
+    --card-border: rgba(117, 125, 111, 0.35);
+    --badge-bg: rgba(109, 8, 8, 0.1);
+    --badge-text: #6d0808;
+    --btn-primary-bg: #6d0808;
+    --btn-primary-text: #eeead7;
+    --header-bg: rgba(238, 234, 215, 0.85);
+  }
+
+  .dark {
+    /* Dark Theme (Default) */
+    --bg-page: #170000;
+    --text-page: #eeead7;
+    --text-muted: #b5b1a0;
+    --card-bg: #2d0000;
+    --card-border: rgba(117, 125, 111, 0.28);
+    --badge-bg: rgba(109, 8, 8, 0.45);
+    --badge-text: #f0c4c4;
+    --btn-primary-bg: #6d0808;
+    --btn-primary-text: #eeead7;
+    --header-bg: rgba(23, 0, 0, 0.85);
+  }
+
+  * {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-page);
+    font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom glow & glass effects */
+.glow-crimson {
+  box-shadow: 0 0 25px rgba(109, 8, 8, 0.35);
+}
+
+.glow-crimson-hover:hover {
+  box-shadow: 0 0 35px rgba(109, 8, 8, 0.55);
+}
+
+.glass-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(12px);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: rgba(109, 8, 8, 0.7);
+  box-shadow: 0 16px 32px rgba(45, 0, 0, 0.35);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #170000;
+}
+::-webkit-scrollbar-thumb {
+  background: #6d0808;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8f0e0e;
 }
